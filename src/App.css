@@ -1,0 +1,75 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+header h1 {
+  color: blue;
+  margin: 0;
+}
+
+main {
+  flex: 1;
+  width: 80%;
+  max-width: 700px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.student-profile {
+  border: 2px solid black;
+  padding: 25px;
+  margin-top: 25px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.student-profile h2 {
+  text-align: center;
+  color: #333;
+}
+
+.student-profile p {
+  margin: 12px 0;
+}
+
+.student-profile h3 {
+  text-align: center;
+  margin: 25px 0;
+}
+
+button {
+  padding: 10px 18px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #333;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+.toggle-button {
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #f2f2f2;
+}
+
+footer p {
+  margin: 0;
+}
